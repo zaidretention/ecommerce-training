@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Commerce Training</title>
+  <title>Product Page</title>
   <link rel="stylesheet" href="style.css">
   <!-- Google Tag Manager -->
   <script>
@@ -27,9 +27,21 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <h1>Welcome to E-Commerce Training</h1>
-  <p>Learn how to implement and test Google Tag Manager with e-commerce events!</p>
-  <p>Click on the product below to view details:</p>
-  <a href="product.html" id="product-link">Sample Product</a>
+  <h1>Sample Product</h1>
+  <img src="https://retention.com/wp-content/uploads/2023/03/retention-white-long.svg" alt="Sample Product Image" width="300">
+  <p>Price: $49.99</p>
+  <button id="add-to-cart-btn">Add to Cart</button>
+
+  <!-- Contact Form -->
+  <form id="contact-form">
+    <h2>Contact Us</h2>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" placeholder="Your Name" required>
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>
