@@ -1,5 +1,15 @@
 window.dataLayer = window.dataLayer || [];
 
+// Trigger Product Viewed Event on Page Load
+window.dataLayer.push({
+  event: 'product_viewed',
+  page_type: 'product',
+  product_id: '12345',
+  product_name: 'Sample Product',
+  price: "49.99",
+  imageURL: "https://retention.com/wp-content/uploads/2023/03/retention-white-long.svg"
+});
+
 // Add to Cart Event
 document.getElementById('add-to-cart-btn').addEventListener('click', function () {
   window.dataLayer.push({
